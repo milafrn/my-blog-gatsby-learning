@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+
 import Sidebar from "../Sidebar"
 import MenuBar from "../MenuBar"
 
@@ -21,4 +22,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default Layout;
